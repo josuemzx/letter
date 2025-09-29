@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+    <title>Esai & Karina</title>
+  <link rel="icon" href="img/heart.png">
+
+  <!-- Estilos -->
+  <link href="css/github.css" rel="stylesheet" />
+  <link rel="icon" href="../img/CJM.png" />
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Shadows Into Light Two', cursive;
+    }
+
+    main {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+
+    #front, #inside {
+      width: 40%;
+      height: 100%;
+    }
+
+    #front {
+      background-color: #EEE4E3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+    }
+
+    #front-title {
+      max-width: 80%;
+    }
+
+    #front-pic {
+      max-width: 60%;
+      margin: 20px 0;
+    }
+
+    #inside {
+      background-color: #ffffff;
+      padding: 40px;
+      overflow-y: auto;
+    }
+
+    #inside-recipient {
+      font-size: 1.8rem;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    #inside-sender {
+      font-size: 1.4rem;
+      margin-top: 40px;
+    }
+
+    #message {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    #message img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+
+    p {
+      margin: 0 0 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="front">
+      <img id="front-title" src="img/love.png" alt="love" />
+      <img id="front-pic" src="img/Octocat.png" alt="octopus" />
+      <p>Haz clic para abrir 🍼</p>
+    </div>
+
+    <div id="inside">
+      <span id="inside-recipient">Querida familia,</span>
+
+      <p id="message">
+        Esta carta no es como las demás.<br /><br />
+
+        Queremos contarles algo muy especial, algo que nace del amor y que viene en camino a nuestras vidas. Con muchísima alegría en el corazón, <strong>Karina y yo (Esai)</strong> queremos compartir con ustedes una noticia hermosa: <strong>¡vamos a ser papás!</strong> 🧸<br /><br />
+
+        Aún no sabemos si será niño o niña, pero sí sabemos que ya lo amamos profundamente y que llegará para transformar nuestras vidas con amor, ternura y nuevas aventuras. ❤️<br /><br />
+
+        Hemos guardado esta sorpresa con mucho cariño, esperando el momento perfecto para decírselo así: con emoción, con ilusión… y con una carta que quedará para siempre.<br /><br />
+
+        Gracias por acompañarnos siempre, por ser parte de nuestra historia y ahora, también de este nuevo capítulo que empieza.<br /><br />
+
+        Les compartimos la primera imagen que tenemos de nuestro bebé 👶:
+        <br /><br />
+        <img src="img/ecografia.jpeg" alt="Ecografía del bebé" />
+      </p>
+
+      <p id="inside-sender">
+        Esai & Karina 💕
+      </p>
+    </div>
+  </main>
+
+  <!-- Script original -->
+  <script src="js/github.js"></script>
+</body>
+</html>
